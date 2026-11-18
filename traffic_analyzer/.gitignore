@@ -1,0 +1,5 @@
+src/*.o
+traffic_analyzer
+traffic_analyzer_san
+results/
+__pycache__/

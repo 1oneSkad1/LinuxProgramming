@@ -1,0 +1,29 @@
+{
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "cpu_count": 8,
+  "cpuinfo": [
+    "processor\t: 0",
+    "vendor_id\t: GenuineIntel",
+    "cpu family\t: 6",
+    "model\t\t: 189",
+    "model name\t: Intel(R) Core(TM) Ultra 5 228V",
+    "stepping\t: 1",
+    "microcode\t: 0xffffffff",
+    "cpu MHz\t\t: 3110.409"
+  ],
+  "meminfo": [
+    "MemTotal:       16122080 kB",
+    "MemFree:        15273120 kB",
+    "MemAvailable:   15532188 kB",
+    "Buffers:           45816 kB"
+  ],
+  "mounts": "Filesystem     Type 1K-blocks      Used Available Use% Mounted on\nC:\\            9p   476547416 383746076  92801340  81% /mnt/c\n",
+  "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "compile_flags": "-std=c11 -O2 -g -Wall -Wextra -Wpedantic -Werror -pthread",
+  "input": "/mnt/c/Users/smcho/workspace/2026-2/\ub9ac\ub205\uc2a4\uc2dc\uc2a4\ud15c\ud504\ub85c\uadf8\ub798\ubc0d\uc2e4\uc2b5/\ud504\ub85c\uc81d\ud2b8/traffic_analyzer/results/benchmark/sample_input",
+  "files": 24,
+  "input_bytes": 261602388,
+  "cache_policy": "One unmeasured warm-up; caches not dropped; copy may warm sampled input; timed order randomized with seed 2026",
+  "repeats": 3,
+  "measurement": "elapsed includes scanning through reports; excludes writing final metrics CSV; max RSS from /proc/self/status VmHWM (getrusage also recorded)"
+}

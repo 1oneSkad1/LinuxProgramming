@@ -1,0 +1,2 @@
+status,files,successful_files,failed_files,records,packets,bytes,unique_hosts,skipped_records,invalid_records,bytes_read
+complete,1,1,0,61536,61536,23370988,558,0,0,5625600

@@ -1,0 +1,2 @@
+status,mode,workers,interval_seconds,top_k,buffer_bytes,timezone_minutes,files,input_bytes,bytes_read,elapsed_seconds,processing_seconds,packets_per_second,input_mib_per_second,max_rss_kib,input,format,byte_metric
+complete,threaded,4,60,10,1048576,540,1,6231910,6231910,0.335441278,0.179017685,216139.172,17.718,35676,"/mnt/c/Users/smcho/workspace/2026-2/리눅스시스템프로그래밍실습/프로젝트/2026.08.02/pkt/pkt_2026.08.02_12.00",pkt_le12_ipv4,pkt_len_original

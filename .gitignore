@@ -1,0 +1,22 @@
+# Downloaded data and generated run outputs
+/data/
+/2026.*/
+/traffic_analyzer/results/
+pkt_20[0-9][0-9]*
+
+# Build products
+*.o
+/traffic_analyzer/traffic_analyzer
+/traffic_analyzer/traffic_analyzer_san
+/reference/pkt_checker/m
+
+# Local caches and editor state
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+Thumbs.db
+.DS_Store
+~$*
+*.tmp

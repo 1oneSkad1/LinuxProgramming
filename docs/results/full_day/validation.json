@@ -1,0 +1,47 @@
+{
+  "full_input_analytical_outputs_equal": true,
+  "sha256": {
+    "summary.csv": "4129357e48a36f6900f7bffd6c4658e401fa8eeafdb03318d253d330dda3d185",
+    "hosts.csv": "2fe28e6dd60bdaa6c49eba588ec4c6a16e6539cc449987a2bcb048129f73bfaf",
+    "timeseries.csv": "646e9c32bfa1ce7e36ebde05d169e021edba06bf12abb40e3f69c0dc6d0fb2a0",
+    "top_hosts.csv": "ffacdd0d1980c4a32a269706346929105a7c50e4b97ec2f1914fd71660bd36a0",
+    "errors.log": "bfc1dc36d6dfc3f0a5b9f4d9646d48d4e8246fdb9ddb9452d7f512808fcd67cc"
+  },
+  "summary": {
+    "status": "partial",
+    "files": "1440",
+    "successful_files": "1439",
+    "failed_files": "1",
+    "records": "225206700",
+    "packets": "225206700",
+    "bytes": "168500288846",
+    "unique_hosts": "13498",
+    "skipped_records": "0",
+    "invalid_records": "0",
+    "bytes_read": "15032662323"
+  },
+  "independent_samples": [
+    {
+      "file": "pkt_2026.08.02_00.00",
+      "packets": 61536,
+      "bytes": 23370988,
+      "hosts": 558,
+      "independent_oracle_equal": true
+    },
+    {
+      "file": "pkt_2026.08.02_12.00",
+      "packets": 72502,
+      "bytes": 39603724,
+      "hosts": 593,
+      "independent_oracle_equal": true
+    },
+    {
+      "file": "pkt_2026.08.02_23.59",
+      "packets": 102063,
+      "bytes": 63713888,
+      "hosts": 627,
+      "independent_oracle_equal": true
+    }
+  ],
+  "host_conservation_checks": true
+}

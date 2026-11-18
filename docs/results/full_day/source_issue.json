@@ -1,0 +1,18 @@
+{
+  "local_file": "/mnt/c/Users/smcho/workspace/2026-2/\ub9ac\ub205\uc2a4\uc2dc\uc2a4\ud15c\ud504\ub85c\uadf8\ub798\ubc0d\uc2e4\uc2b5/\ud504\ub85c\uc81d\ud2b8/2026.08.02/pkt/pkt_2026.08.02_19.27",
+  "url": "https://nmlab.korea.ac.kr/traffic.data/2026.08.02/pkt/pkt_2026.08.02_19.27",
+  "local_bytes": 3145728,
+  "response_headers": {
+    "Date": "Wed, 04 Nov 2026 01:32:44 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Fri, 09 Oct 2026 11:58:14 GMT",
+    "ETag": "\"300000-65d6710241170\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "3145728",
+    "Connection": "close"
+  },
+  "local_sha256": "32279941af38767b6bb0a0f598a5d31a11e09799f3f9e3ca9c0a2bfd4f88c903",
+  "server_sha256": "32279941af38767b6bb0a0f598a5d31a11e09799f3f9e3ca9c0a2bfd4f88c903",
+  "identical": true,
+  "finding": "The 19:27 file ends with a storage header requesting 28 payload bytes but only 25 remain (offset 3145691)."
+}
